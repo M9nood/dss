@@ -1,0 +1,31 @@
+@relation major
+
+@attribute education {art-math,vocational,sciene-math}
+@attribute Language numeric
+@attribute computer numeric
+@attribute manage numeric
+@attribute design numeric
+@attribute math numeric
+@attribute applied numeric
+@attribute communication numeric
+@attribute analysis numeric
+@attribute logic numeric
+@attribute humanrelation numeric
+@attribute maintenance numeric
+@attribute metal numeric
+@attribute technician-equipment numeric
+@attribute wood numeric
+@attribute creative numeric
+@attribute GPA numeric
+@attribute dream {programmer,com-sci,system_analyze,qa,machine-design,engineer}
+@attribute class {IT,IM,TA,CA}
+
+@data
+
+art-math,5,5,4,3,2,3,3,4,4,3,3,3,2,1,5,3,programmer,IT
+vocational,3,4,3,3,3,3,3,4,4,3,3,3,2,2,4,3.3125,com-sci,IT
+art-math,4,4,3,2,3,5,2,4,5,5,2,3,3,1,5,2.8125,system_analyze,IT
+vocational,3,3,3,2,4,3,5,3,4,4,3,3,1,1,3,2.9375,qa,IM
+sciene-math,3,2,3,1,2,3,4,2,2,3,4,1,2,3,3,3.125,machine-design,TA
+sciene-math,2,4,2,2,2,2,2,5,4,3,1,1,1,4,3,3.277039,engineer,CA
+sciene-math,4,3,5,3,5,4,5,3,4,4,2,2,2,2,3,3.0625,qa,?
